@@ -1,0 +1,250 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-size: 1.25rem;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+li {
+
+    list-style: none;
+
+}
+
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    color: #fff;
+    background: hsla(236, 100%, 8%, 1);
+    background: linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+
+}
+
+.nav-links a {
+
+    color: #fff;
+
+}
+
+/* LOGO */
+
+.logo {
+    font-size: 32px;
+}
+
+/* NAVBAR MENU */
+
+.menu {
+
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+
+}
+
+.menu li:hover {
+
+    background-color: rgba(0, 0, 255, 0.966);
+    border-radius: 5px;
+    transition: 0.3s ease;
+
+}
+
+.menu li {
+
+    padding: 5px 14px;
+
+}
+
+
+input[type=checkbox] {
+
+    display: none;
+
+}
+
+/*HAMBURGER MENU*/
+
+.hamburger {
+
+    display: none;
+    font-size: 24px;
+    user-select: none;
+
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .menu {
+
+        display: none;
+        position: absolute;
+        color: rgb(1, 33, 178);
+        background-color: rgb(33, 33, 33);
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+
+    }
+
+    .menu li:hover {
+
+        display: inline-block;
+        background-color: rgba(0, 0, 202, 0.966);
+        transition: 0.3s ease;
+
+    }
+
+    .menu li+li {
+
+        margin-top: 12px;
+
+    }
+
+    input[type=checkbox]:checked~.menu {
+
+        display: block;
+
+    }
+
+    .hamburger {
+
+        display: block;
+
+    }
+}
+
+.title {
+
+    font-size: 3rem;
+    padding-bottom: .4em;
+
+}
+
+.top-section {
+
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    padding: 3em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: .75em;
+    color: #fff;
+    background: hsla(236, 100%, 8%, 1);
+    background: linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+
+}
+
+.memory-verse-section {
+
+
+    max-width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 3em 1em;
+    text-align: center;
+    border: 1px solid purple;
+    border-radius: .75em;
+    color: #fff;
+    background: hsla(236, 100%, 8%, 1);
+    background: linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+
+}
+
+.verse-list {
+
+    max-width: 40%;
+    margin: 1em auto;
+    border: white solid;
+}
+
+.modal {
+
+    display: none;
+    width: 100%;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+
+    background-color: #fefefe;
+    margin: auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    color: black;
+    /* Could be more or less, depending on screen size */
+}
+
+.header-book-list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.book-title {
+
+    margin-bottom: 1em;
+
+}
+
+.closeModal {
+
+
+    position: absolute;
+    top: -.75em;
+    right: -.4em;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.closeModal:hover,
+.closeModal:focus {
+
+    color: black;
+    cursor: pointer;
+
+}
+
+.book-list {
+
+    display: flex;
+    flex-direction: column;
+
+}

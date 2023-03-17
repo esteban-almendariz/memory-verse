@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Memory Verse</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <a class="logo" href="#">Memory Verse</a>
+
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="/">Bible</a></li>
+                <li><a href="/">Notes</a></li>
+                <li><a href="/">Videos</a></li>
+            </div>
+        </ul>
+    </nav>
+
+
+    <section class="top-section">
+        <h1 class="title">Message of the Day</h1>
+        <p>"When you remember where God brought you out from, you will stop doubting where God can take you to."</p>
+    </section>
+
+    <main class="memory-verse-section">
+        <h1 class="title">Memory List</h1>
+        <button id="verseBtn">Choose Your Verse</button>
+
+        <div class="modal" id="verseModal">
+            <div class="modal-content">
+                <div class="header-book-list">
+                    <h5 class="book-title">BOOK</h5>
+                    <span class="closeModal">X</span>
+                </div>
+                <div class="book-list">
+                    <button>Genesis</button>
+                    <button>Exodus</button>
+                    <button>Leviticus</button>
+                    <button>Numbers</button>
+                    <button>Deuteronomy</button>
+                    <button>Joshua</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <form action="">
+            <label for="book">Book</label>
+            <select name="book" id="book">
+                <option value="Genesis">Genesis</option>
+                <option value="Genesis">Exodus</option>
+                <option value="Genesis">Leviticus</option>
+                <option value="Genesis">Numbers</option>
+                <option value="Genesis">Deuteronomy</option>
+                <option value="Genesis">Joshua</option>
+            </select>
+           
+        </form> -->
+        <div class="verse-list">
+            <p>John 1:1</p>
+            <p>Matthew 4:21</p>
+            <p>Philippians 4:6-7 </p>
+        </div>
+        <p>Verse Below comes from API</p>
+        <div id="bible-data"></div>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
