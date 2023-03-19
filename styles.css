@@ -8,7 +8,8 @@
 
 body {
 
-    font-size: 1.25rem;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -52,7 +53,13 @@ li {
 /* LOGO */
 
 .logo {
+
     font-size: 32px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(rgb(255, 254, 254), rgb(200, 200, 200));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 /* NAVBAR MENU */
@@ -145,8 +152,12 @@ input[type=checkbox] {
 
 .title {
 
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding-bottom: .4em;
+    font-weight: 700;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(185, 185, 185));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -175,6 +186,7 @@ input[type=checkbox] {
 
 
     max-width: 90%;
+    height: auto;
     margin: auto;
     margin-top: 40px;
     padding: 3em 1em;
@@ -207,7 +219,7 @@ input[type=checkbox] {
 
 /* Modal Content/Box */
 .modal-content {
-    height: 50%;
+    height: auto;
     width: 75%;
     background-color: #fefefe;
     margin: auto;
@@ -235,7 +247,6 @@ input[type=checkbox] {
     color: rgb(0, 0, 0);
     cursor: pointer;
     display: inline-flex;
-    font-family: "JetBrains Mono", monospace;
     width: 150px;
     height: 48px;
     justify-content: center;
@@ -247,6 +258,7 @@ input[type=checkbox] {
     text-align: left;
     transition: box-shadow .15s, transform .15s;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -288,7 +300,9 @@ input[type=checkbox] {
 
 .book-title {
 
+    font-size: 1.5rem;
     margin-bottom: 1em;
+    font-weight: 700;
 
 }
 
