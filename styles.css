@@ -175,10 +175,10 @@ input[type=checkbox] {
     border: 2px solid rgb(0, 0, 0);
     border-radius: .1em;
     color: #fff;
-    background: hsla(236, 100%, 8%, 1);
-    background: linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
-    background: -moz-linear-gradient(90deg, rgb(0, 6, 89) 0%, hsla(211, 100%, 28%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, rgb(0, 6, 88) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: rgb(0, 29, 87);
+    background: linear-gradient(0deg, rgb(0, 0, 1) 50%, rgb(228, 231, 234) 10%);
+    background: -moz-linear-gradient(45deg, rgb(0, 3, 50) 50%, rgb(0, 63, 112) 100%);
+    background: -webkit-linear-gradient(45deg, rgb(0, 6, 88) 0%, rgb(0, 81, 168) 100%);
 
     /* (90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%); */
 
@@ -196,10 +196,15 @@ input[type=checkbox] {
     border: 2px solid rgb(0, 0, 0);
     border-radius: .1em;
     color: #fff;
-    background: hsla(236, 100%, 8%, 1);
+    background: rgb(0, 15, 46);
+    background: linear-gradient(0deg, rgb(0, 0, 95) 50%, rgb(2, 128, 254) 100%);
+    background: -moz-linear-gradient(45deg, rgb(0, 3, 50) 50%, rgb(0, 65, 115) 100%);
+    background: -webkit-linear-gradient(45deg, rgb(0, 6, 88) 20%, rgb(0, 82, 170) 100%);
+
+    /* background: hsla(236, 100%, 8%, 1);
     background: linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
     background: -moz-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%); */
 
 }
 
@@ -227,7 +232,7 @@ input[type=checkbox] {
     margin: auto;
     text-align: center;
     padding: 20px;
-    border: 1px solid #888;
+    border: .5px solid rgb(22, 22, 22);
     border-radius: .75em;
     color: black;
 
