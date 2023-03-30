@@ -173,7 +173,7 @@ input[type=checkbox] {
     justify-content: center;
     text-align: center;
     border: 2px solid rgb(0, 0, 0);
-    border-radius: .75em;
+    border-radius: .1em;
     color: #fff;
     background: hsla(236, 100%, 8%, 1);
     background: linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
@@ -194,7 +194,7 @@ input[type=checkbox] {
     padding: 3em 1em;
     text-align: center;
     border: 2px solid rgb(0, 0, 0);
-    border-radius: .75em;
+    border-radius: .1em;
     color: #fff;
     background: hsla(236, 100%, 8%, 1);
     background: linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
